@@ -1,6 +1,7 @@
 float positionX = 300;
 float positionY = 300;
 float angle = 0.1;
+floar speed = 1;
  
 void ellipsesFunc(float raio, float speed){
    
@@ -15,7 +16,7 @@ void ellipsesFunc(float raio, float speed){
   fill(255, 0, 0);
   ellipse(newX, newY, 5, 5);
   
-  angle+=speed; 
+  angle+=52*speed/raio;
 }
 
 void setup (){
