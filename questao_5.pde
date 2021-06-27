@@ -20,6 +20,7 @@ void ellipsesFunc(float raio, float speed){
 
 void setup (){
   size(600, 600);
+  frameRate(60);
 }
  
 void draw (){ 
@@ -29,5 +30,5 @@ void draw (){
   
   ellipse(positionX, positionY, 250, 250);
   
-  ellipsesFunc(100, -0.05);
+  ellipsesFunc(100, -0.025);
 }
